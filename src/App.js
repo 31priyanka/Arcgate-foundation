@@ -32,7 +32,6 @@ function App() {
     '/images/it_park8.jpg',
     '/images/it_park9.jpg',
   ];
-
   const udaipurImages = [
     '/images/uda1.jpg',
     '/images/uda2.jpg',
@@ -78,7 +77,6 @@ function App() {
     '/images/08 (1).jpg',
     '/images/09 (1).jpg',
   ];
-
 
   const saveImages = [
     '/images/01 (2).jpg',
@@ -162,7 +160,7 @@ function App() {
           Our mission is to support the less privileged sections of the society through various efforts that will help create a brighter future.</p></div>
       <div className='content'>
         <Paragraph heading="Our Work" />
-        <Paragraph heading3="Making our city beautiful and safe with roundabouts" />
+        <Paragraph heading3="Infrastructure Development - Enriching public spaces" />
         <div class="line"></div>
           <Paragraph paragraph="At Arcgate Foundation, we believe in giving back to the community that supports us.
           That's why we adopted roundabouts in our city, to beautify the streets and improve the traffic flow." />
@@ -174,21 +172,30 @@ function App() {
           We hope that our efforts will inspire others to join us in making a positive difference in our community.
           Together, we can create a more beautiful and livable city for ourselves and future generations." />
         <h2 className='ayu-heading'>Ayurvedic College Circle</h2>
-        <p className='ayu-para'>Udaipur symbolises an important city of India at the crossroads of growing urbanism and traditional sensibilities, a place where culture</p>
+        <p className='ayu-para'>Udaipur symbolises an important city of India at the crossroads of growing urbanism and traditional sensibilities, a place where culture meets tourism and 'Atithi Devo Bhavo' is epitomized. It reflects the modern ideas of the new India while retaining its heritage and values.</p>
 
-        <Component images={galleryImages} />
+       <Component images={galleryImages} />
         <ul className='bulleted-list'>
           <li>This traffic circle is located at an important junction of the city with a great visual interaction with the locals and tourists alike.</li>
           <li>This urban intervention takes cues from the daily lives of the residents of Udaipur, while showcasing their spirited and modern approach to life. It lends to the viewer a symbolic and striking visual landscape of this idea of a new Udaipur.</li>
           <li>Each of the portal frames indicates a stage in our lives and the series of these frames placed one behind the other shows how our life moves and how experiences in our life teach us various virtues. The words written on some of the portals outline the specific words that come to mind while we take on the journey of life. These words enable us to grow as a human being during our lifetime.</li>
           <li>The gaps in the various frames shows that our lives are pervious and open to influences from outside forces. It is important to make appropriate choices during our lives.</li>
         </ul>
-        <h2 className='uit-heading'>UIT Circle</h2>
+           <h2 className='uit-heading'>UIT Circle</h2>
         <Component images={uitImages} />
         <h2 className='uit-heading'>I.T Park</h2>
+        <Paragraph paragraph="At Arcgate Foundation, we believe in giving back to the community that supports us.
+          That's why we adopted roundabouts in our city, to beautify the streets and improve the traffic flow." />
+        <Paragraph paragraph="Roundabouts are not only aesthetically pleasing,
+          but also safer and more efficient than traditional intersections.
+          They reduce collisions, emissions, and delays, and enhance the quality of life for everyone.
+          By adopting roundabouts, we are contributing to the environmental sustainability and social well-being of our city." />
+        <Paragraph paragraph="We are proud to be part of this initiative and to make our city a better place to live and work.
+          We hope that our efforts will inspire others to join us in making a positive difference in our community.
+          Together, we can create a more beautiful and livable city for ourselves and future generations." />
         <Component images={parkImages} />
+        
       </div>
-
       <div className='section'>
         <img src={udaipur} alt="udaipur" className='udaipur-image' />
         <h1>#SheIsUdaipur</h1>
@@ -202,7 +209,6 @@ function App() {
         <div class="line1"></div>
         <Component images={jalImages} />
       </div>
-
 
       <div className='section-heading'><h1>Free dental camp for specially-abled children to promote healthy smiles</h1></div>
       <div class="line2"></div>
@@ -305,9 +311,7 @@ function App() {
         <Paragraph paragraph="Our deepest appreciation and utmost admiration goes out to Dr. J.K. Chhaparwal and his team of remarkable doctors, whose visit to Ram Van Kutir was marked by their extraordinary dedication, expertise, and empathy. Their noble work has had a profound positive impact on the lives of countless individuals, who now have renewed hope for a brighter future." />
         <Paragraph paragraph="We take great pride in our support and sponsorship of this surgical camp and extend our wholehearted commendation to Ram Van Kutir and the exceptional team led by Dr. J.K. Chhaparwal. By working together, we will persist in creating a positive impact on people's lives, aiming for a society where every individual can thrive. " />
         <Component images={surgicalImages} />
-
       </div>
-
 
       <div className='sections-heading'><h1>Provided support to Sisarma Government Hospital</h1></div>
       <div class="line12"></div>
@@ -336,6 +340,28 @@ function App() {
         <p>Udaipur Tales International Storytelling Festival is giving a platform for storytellers to excel and for enriching our world with their wonderful tales.</p>
         <Component images={festivalImages} />
       </div>
+
+      {/* <div class="boxAnimation animated" style="transition-delay:100ms;-webkit-transition-delay:100ms">
+      <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
+      <div class="swiper-wrapper" id="swiper-wrapper-ff1961035b0a7e06b" aria-live="polite" style="transition-duration: 0ms;">
+      <div class="swiper-slide swiper-slide-prev" role="group" aria-label="1 / 3" style="width: 375.333px;">
+      <div style="background-image:url(/images/foundation/large/uit01.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;height:251px;width:360px;overflow:hidden;border-radius:10px;margin-left:auto;margin-right:auto">
+      <a data-fancybox="uit-circle" href="/images/foundation/large/uit01.jpg">
+      <img alt="Arcgate Foundation" loading="lazy" width="2000" height="2000" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit01.jpg&amp;w=2048&amp;q=75 1x, /_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit01.jpg&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit01.jpg&amp;w=3840&amp;q=75"/></a></div>
+      </div><div class="swiper-slide swiper-slide-active" role="group" aria-label="2 / 3" style="width: 375.333px;">
+      <div style="background-image:url(/images/foundation/large/uit02.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;height:251px;width:360px;overflow:hidden;border-radius:10px;margin-left:auto;margin-right:auto">
+      <a data-fancybox="uit-circle" href="/images/foundation/large/uit02.jpg">
+      <img alt="Arcgate Foundation" loading="lazy" width="2000" height="2000" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit02.jpg&amp;w=2048&amp;q=75 1x, /_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit02.jpg&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit02.jpg&amp;w=3840&amp;q=75"/></a></div></div>
+      <div class="swiper-slide swiper-slide-next" role="group" aria-label="3 / 3" style="width: 375.333px;">
+      <div style="background-image:url(/images/foundation/large/uit03.jpg);background-repeat:no-repeat;background-position:center;background-size:cover;height:251px;width:360px;overflow:hidden;border-radius:10px;margin-left:auto;margin-right:auto">
+      <a data-fancybox="uit-circle" href="/images/foundation/large/uit03.jpg">
+      <img alt="Arcgate Foundation" loading="lazy" width="2000" height="2000" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit03.jpg&amp;w=2048&amp;q=75 1x, /_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit03.jpg&amp;w=3840&amp;q=75 2x" src="/_next/image?url=%2Fimages%2Ffoundation%2Flarge%2Fuit03.jpg&amp;w=3840&amp;q=75"/></a></div></div></div>
+      <div class="swiper-button-prev swiper-button-disabled" tabindex="-1" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-ff1961035b0a7e06b" aria-disabled="true"></div>
+      <div class="swiper-button-next swiper-button-disabled" tabindex="-1" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-ff1961035b0a7e06b" aria-disabled="true"></div>
+      <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span>
+      <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+      <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div></div> */}
 
 <div className='footer'>
   <p> Copyright © 2023. All rights reserved</p>
