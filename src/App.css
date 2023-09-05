@@ -44,7 +44,8 @@ body {
   margin-left: -716px;
   margin-top: 60px;
 }
-.content{
+
+.content {
   margin-top: -100px;
 }
 
@@ -89,8 +90,8 @@ body {
 .section h1 {
   position: absolute;
   /* top: 10px; */
-  left: 605px;
-  top: 2820px;
+  left: 600px;
+  top: 2844px;
 
 }
 
@@ -98,7 +99,7 @@ body {
   position: absolute;
   left: 602px;
   text-align: initial;
-  top: 2887px;
+  top: 2968px;
   font-size: 21px;
   right: 447px;
 }
@@ -288,7 +289,7 @@ body {
 }
 
 .footer {
-  background-color: coral;
+  background-color: rgb(235, 102, 54);
   padding: 5px;
 }
 
@@ -319,18 +320,18 @@ body {
   width: 62px;
   height: 47px;
   border-bottom: 7px solid orange;
-  position: absolute;
+  /* position: absolute; */
   margin-left: 414px;
-  margin-top: 23px;
+  margin-top: 35px;
 }
 
-.lines{
-width: 137px;
-height: 47px;
-border-bottom: 7px solid orange;
-position: absolute;
-left: 604px;
-margin-top: -276px;
+.lines {
+  width: 137px;
+  height: 47px;
+  border-bottom: 7px solid orange;
+  position: absolute;
+  left: 604px;
+  margin-top: -371px;
 }
 
 .line1 {
@@ -391,11 +392,11 @@ margin-top: -276px;
 
 .line7 {
   width: 84px;
-    height: 47px;
-    border-bottom: 7px solid orange;
-    position: absolute;
-    margin-left: 414px;
-    margin-top: -83px;
+  height: 47px;
+  border-bottom: 7px solid orange;
+  position: absolute;
+  margin-left: 414px;
+  margin-top: -83px;
 }
 
 .line8 {
@@ -419,11 +420,11 @@ margin-top: -276px;
 
 .line10 {
   width: 88px;
-    height: 47px;
-    border-bottom: 7px solid orange;
-    position: absolute;
-    margin-left: 413px;
-    margin-top: -80px;
+  height: 47px;
+  border-bottom: 7px solid orange;
+  position: absolute;
+  margin-left: 413px;
+  margin-top: -80px;
 }
 
 .line11 {
@@ -448,17 +449,505 @@ margin-top: -276px;
 
 
 @media screen and (max-width: 768px) {
+
+  .bg-image {
+    height: 413px;
+    padding: 0px px;
+    width: 1910px;
+  }
   
-.para {
-  font-size: 16px;
- margin-left: 16px; 
-  width: 319px;
-  line-height: 23px;
+
+  .para {
+    font-size: 18px;
+    margin-left: 103px;
+    width: 572px;
+    line-height: 23px;
+  }
+
+  .logo-image {
+    width: 252px;
+    margin-left: -35rem !important;
+  }
+
+  .heading3 {
+    margin-left: -1rem !important;
+    font-size: 19px;
+    margin-top: -75px;
+  }
+
+  .line {
+    margin-left: 8rem !important;
+  }
+
+  .paragraph {
+    font-size: 19px;
+    margin-left: 8rem;
+    width: 500px;
+  }
+
+  .ayu-heading {
+    margin-left: -253px;
+    margin-top: 28px;
+  }
+
+  .ayu-para {
+    font-size: 18px;
+    margin-left: 120px;
+    width: 500px;
+  }
+
+  .bulleted-list {
+    font-size: 18px;
+    width: 500px;
+    margin-left: 10rem;
+  }
+
+  .uit-heading {
+    margin-left: -253px;
+    margin-top: 28px;
+  }
+
+  .image-gallery {
+    margin-left: 23rem;
+    max-width: 40px;
+  }
+
+  .section{
+    height: 188vh;
+  }
+  .section h1 {
+    width: 10rem;
+    position: relative;
+    top: -13rem;
+    left: 23%;
+  }
+  .udaipur-image{
+    margin-left: -35rem;
+    height: 141px;
+    width: 98px;
+  }
+  .section p {
+    font-size: 18px;
+    margin-left: -422px;
+    margin-top: 15rem;
+    width: 500px;
+}
+.lines{
+  margin-left: -27rem !important;
+  margin-top: -17rem;
+}
+.section{
+  height: 93vh;
+}
+.section1 h1 {
+    font-size: 15px;
+    margin-right: 0.5rem !important;
+    margin-left: 3.5rem !important;
+    margin-top: 1rem;
+}
+.section-heading {
+  margin-top: 18px;
+}
+.section-heading h1{
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-left: -1rem !important;
 }
 
-.logo-image {
-  width: 252px;
-    margin-left: -41rem !important;
+.line1{
+  margin-left: -17rem !important;
+  margin-top: -5rem;
+}
+.section2{
+  height: 85vh;
+}
+.line2{
+  margin-left: 7rem !important;
+  margin-top: -8rem;
+}
+
+.section2 p{
+  font-size: 16px;
+  margin-left: -17rem;
+  width: 500px;
+}
+
+.section3{
+  margin-top: -4rem;
+}
+.section3 h1{
+  font-size: 15px;
+  margin-top: 5rem;
+  margin-left: -6rem !important;
+}
+.line3{
+  margin-left: 7rem !important;
+  margin-top: -5rem;
+}
+.paragraph{
+  font-size: 16px;
+  margin-left: 8rem;
+  width: 500px;
+}
+.line4{
+  margin-left: 7rem !important;
+  margin-top: -5rem;
+}
+.section4 h1 {
+  font-size: 16px;
+  margin-top: 2rem;
+  margin-left: 2rem !important;
+}
+.line5{
+  margin-left: 8rem !important;
+  margin-top: -5rem;
+}
+.sections-heading{
+  height: 15vh;
+  margin-top: 1rem;
+}
+.sections-heading h1 {
+  font-size: 15px;
+  width: 600px;
+  margin-top: 1rem;
+  margin-left: 6rem !important;
+}
+.line6{
+  margin-left: 6rem !important;
+  margin-top: -4rem;
+}
+.section5 p {
+  font-size: 15px;
+  margin-left: -20rem;
+  width: 600px;
+}
+.line7{
+  margin-left: 8rem !important;
+  margin-top: -5rem;
+}
+.line8{
+  margin-left: 6rem !important;
+  margin-top: -5rem;
+}
+.section6 p{
+  font-size: 15px;
+  margin-left: -20rem;
+  width: 600px;
+}
+.line9{
+  margin-left: 8rem !important;
+  margin-top: -5rem;
+}
+.section7-heading{
+  height: 15vh;
+  margin-top: 1rem;
+}
+.section7-heading h1{
+  font-size: 15px;
+  width: 650px;
+  margin-top: 1rem;
+  margin-left: 5rem !important;
+}
+.line10{
+  margin-left: 6rem !important;
+  margin-top: -5rem;
+}
+.section7{
+  height: 160vh;
+}
+.section7 p{
+  font-size: 15px;
+  margin-left: -20rem;
+  width: 600px;
+}
+.section8 h1{
+  font-size: 15px;
+  width: 600px;
+  margin-top: 1rem;
+  margin-left: 1rem !important;
+}
+.line11{
+  margin-left: 8rem !important;
+  margin-top: -5rem;
+}
+.line12{
+  margin-left: 6rem !important;
+  margin-top: -6rem;
+}
+.section5{
+  height: 54vh;
+}
+.section9 h1{
+  font-size: 15px;
+  width: 600px;
+  margin-top: 1rem;
+  margin-left: 5rem !important;
+}
+.sectionss-heading{
+    margin-top: 1rem;
+
+}
+.sectionss-heading h1{
+  font-size: 15px;
+  width: 500px;
+  margin-top: 1rem;
+  margin-left: 1rem !important;
+}
+.sections{
+  height: 100vh;
+}
+.sections p{
+  font-size: 15px;
+    width: 45rem;
+    margin-left: -25rem;
+}
+}
+
+@media screen and (max-width: 390px){
+
+  .bg-image {
+    height: 275px;
+    padding: 0px px;
+    width: 1910px;
+  }
+  .para {
+    font-size: 10px;
+    margin-top: -157px;
+    margin-left: 70px;
+    width: 283px;
+    line-height: 17px;
+  }
+  .logo-image {
+    width: 148px;
+    margin-left: -42rem !important;
+  }
+
+  .heading3 {
+    margin-left: -1rem !important;
+    font-size: 14px;
+    margin-top: -75px;
+  }
+
+  .heading{
+    height: 10px;
+    font-size: 25px;
+  }
+  .line {
+    margin-left: 1rem !important;
+  }
+
+  .paragraph {
+    font-size: 13px;
+    margin-left: 1rem;
+    width: 360px;
+    margin-bottom: -59px;
+  }
+
+  .ayu-heading {
+    font-size: 16px;
+    margin-left: -11rem;
+    margin-top: 77px;
+  }
+
+  .ayu-para {
+    font-size: 15px;
+    margin-left: 1rem;
+    width: 22rem;
+  }
+
+  .bulleted-list {
+    font-size: 16px;
+    width: 308px;
+    margin-left: 1rem;
+  }
+
+  .uit-heading {
+    margin-left: -253px;
+    margin-top: 28px;
+  }
+  .section{
+    height: 55vh;
+  }
+  .section h1 {
+    width: 10rem;
+    position: relative;
+    top: -13rem;
+    left: 23%;
+  }
+  .udaipur-image{
+    margin-left: -17rem;
+    height: 150px;
+    width: 89px;
+  }
+  .section p {
+    font-size: 12px;
+    margin-left: -481px;
+    margin-top: 21rem;
+    width: 258px;
+  }
+.lines{
+  margin-left: -32rem !important;
+  margin-top: -17rem;
+}
+.section1 h1 {
+    font-size: 15px;
+    margin-right: 0.5rem !important;
+    margin-left: 3.5rem !important;
+    margin-top: 1rem;
+}
+.section-heading {
+  margin-top: 18px;
+}
+.section-heading h1{
+  font-size: 15px;
+  margin-top: 1rem;
+  margin-left: -1rem !important;
+}
+
+.line1{
+  margin-left: -17rem !important;
+  margin-top: -5rem;
+}
+.section2{
+  height: 52vh;
+}
+.line2{
+  margin-left: 7rem !important;
+  margin-top: -5rem;
+}
+
+.section2 p{
+  font-size: 13px;
+  margin-left: -25rem;
+  width: 360px;
+}
+
+.section3{
+  margin-top: -4rem;
+}
+.section3 h1{
+  font-size: 15px;
+  margin-top: 5rem;
+  margin-left: -1rem !important;
+}
+.line3{
+  margin-left: 7rem !important;
+  margin-top: -5rem;
+}
+.line4{
+  margin-left: 7rem !important;
+  margin-top: -5rem;
+}
+.section4 h1 {
+  font-size: 16px;
+  margin-top: 5rem;
+  margin-left: 0rem !important;
+}
+.line5{
+  margin-left: 8rem !important;
+  margin-top: -5rem;
+}
+.sections-heading{
+  height: 15vh;
+  margin-top: 1rem;
+  margin-left: -5rem;
+
+}
+.sections-heading h1 {
+  font-size: 15px;
+  width: 22rem;
+  margin-top: 1rem;
+  margin-left: 6rem !important;
+}
+.line6{
+  margin-left: 1rem !important;
+  margin-top: -6rem;
+}
+.section5 p {
+  font-size: 15px;
+  margin-left: -25rem;
+  width: 23rem;
+}
+.line7{
+  margin-left: 8rem !important;
+  margin-top: -5rem;
+}
+.line8{
+  margin-left: 6rem !important;
+  margin-top: -5rem;
+}
+.section6 p{
+  font-size: 15px;
+  margin-left: -25rem;
+  width: 22rem;
+}
+.line9{
+  margin-left: 8rem !important;
+  margin-top: -5rem;
+}
+.section7-heading{
+  height: 15vh;
+  margin-top: 1rem;
+}
+.section7-heading h1{
+  font-size: 15px;
+  width: 22rem;
+  margin-top: 1rem;
+  margin-left: 0rem !important;
+}
+.line10{
+  margin-left: 2rem !important;
+  margin-top: -7rem;
+}
+.section7{
+  height: 160vh;
+}
+.section7 p{
+  font-size: 15px;
+  margin-left: -24rem;
+  width: 21rem;
+}
+.section8 h1{
+  font-size: 15px;
+  width: 600px;
+  margin-top: 1rem;
+  margin-left: -7rem !important;
+}
+.line11{
+  margin-left: 8rem !important;
+  margin-top: -5rem;
+}
+.sections {
+  height: 107vh;
+}
+
+.line12{
+  margin-left: 6rem !important;
+  margin-top: -8rem;
+}
+.section5{
+  height: 50vh;
+}
+.section9 h1{
+  font-size: 15px;
+  width: 24rem;
+  margin-top: 1rem;
+  margin-left: 0rem !important;
+}
+.sectionss-heading{
+    margin-top: 4rem;
+
+}
+.sectionss-heading h1{
+  font-size: 15px;
+  width: 23rem;
+  margin-top: 1rem;
+  margin-left: 1rem !important;
+}
+.sections p{
+  font-size: 15px;
+  width: 23rem;
+  margin-left: -25rem;
 }
 
 }
