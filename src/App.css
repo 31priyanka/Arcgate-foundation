@@ -440,7 +440,7 @@ body {
 .line12 {
   width: 85px;
   height: 47px;
-  border-bottom: 7px solid orange;
+  border-bottom: 7px solid rgb(226, 113, 21);
   position: absolute;
   margin-left: 414px;
   margin-top: -77px;

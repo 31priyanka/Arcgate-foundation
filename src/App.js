@@ -196,7 +196,7 @@ function App() {
       <div className='content'>
         <Paragraph heading="Our Work" />
         <Paragraph heading3="Infrastructure Development - Enriching public spaces" />
-        <div class="line"></div>
+        {/* <div class="line"></div> */}
           <Paragraph paragraph="At Arcgate Foundation, we believe in giving back to the community that supports us.
           That's why we adopted roundabouts in our city, to beautify the streets and improve the traffic flow." />
         <Paragraph paragraph="Roundabouts are not only aesthetically pleasing,
@@ -240,7 +240,7 @@ function App() {
       <div className='section'>
         <img src={udaipur} alt="udaipur" className='udaipur-image' />
         <h1>#SheIsUdaipur</h1>
-        <div class="lines"></div>
+        {/* <div class="lines"></div> */}
         <p>We believe in increasing awareness to advance the safety, financial independence, education and empowerment of women in Udaipur. #SheIsUdaipur is an initiative to empower women to share their stories. When women share their stories of personal triumph, they often have the potential to give hope, to inspire and to help change lives. Visit sheisudaipur.org to read interesting stories of the top 100 #SheIsUdaipur 2019 winners.</p>
         <div data-aos="fade-up">
         <Component images={Imagefour} className="uadImage" />
@@ -249,14 +249,14 @@ function App() {
 
       <div className='section1'>
         <h1>'Jal Seva' Campaign - Drinking Water Supply to Areas of Crisis in Rural Rajasthan</h1>
-        <div class="line1"></div>
+        {/* <div class="line1"></div> */}
         <div data-aos="fade-up">
         <Component images={Imagefive} />
       </div>
       </div>
 
       <div className='section-heading'><h1>Free dental camp for specially-abled children to promote healthy smiles</h1></div>
-      <div class="line2"></div>
+      {/* <div class="line2"></div> */}
 
       <div className='section2'>
         <p> At Arcgate Foundation, we care about the oral health and well-being of our community. That's why we supported a free dental camp in collaboration with the Udaipur Dental Clinic for specially-abled children and those who need extra help.</p>
@@ -269,7 +269,7 @@ function App() {
 
       <div className='section3'>
         <h1>Helping save newborn lives with advanced NICU equipment</h1>
-        <div class="line3"></div>
+        {/* <div class="line3"></div> */}
         <Paragraph paragraph="Arcgate Foundation donated several advanced NICU machines to Bhandari Children Hospital in Udaipur, a leading facility for neonatal care in the region. NICU machines are essential equipment for the survival and well-being of premature and critically ill newborns. They include neonatal incubators and ventilators." />
         <Paragraph paragraph="These machines help regulate the temperature, oxygen level, breathing, feeding and infection control of the babies in the NICU. With these machines, the hospital can provide better care and outcomes for the most vulnerable patients." />
         <Paragraph paragraph="We are honored to support Bhandari Children Hospital in their mission to save lives and improve the health of newborns. We believe that every child deserves a chance to grow and thrive. We hope that our contribution will make a difference in the lives of many children, families and communities." />
@@ -279,7 +279,7 @@ function App() {
       </div>
 
       <div className='section-heading'><h1>Supporting the Hindustan Scouts & Guides in their quest for excellence</h1></div>
-      <div class="line4"></div>
+      {/* <div class="line4"></div> */}
 
       <div className='section2'>
         <p> At Arcgate Foundation, we value the spirit of adventure and service that the Hindustan Scouts & Guides embody. That's why we are proud to support this organization, which has been nurturing the youth of India since 1951..</p>
@@ -293,7 +293,7 @@ function App() {
 
       <div className='section4'>
         <h1>Celebrating the legacy of music maestro Pt. Chatur Lal with Smritiyaan</h1>
-        <div class="line5"></div>
+        {/* <div class="line5"></div> */}
         <Paragraph paragraph="We are passionate about preserving and promoting the rich heritage of Indian Classical Music. That's why Arcgate Foundation is proud to support Smritiyaan, a concert dedicated to the memory and achievements of Pt. Chatur Lal, the legendary tabla maestro who introduced Indian percussion to the world." />
         <Paragraph paragraph="Smritiyaan featured some of the finest artists of Indian Classical Music, who paid tribute to Pt. Chatur Lal's musical genius and innovation. The concert showcased the diversity and beauty of Indian Classical Music, and inspired the next generation of musicians and listeners." />
         <Paragraph paragraph="We are honored to be part of this initiative and to celebrate the legacy of Pt. Chatur Lal with Smritiyaan. We hope that our support will help preserve and promote the rich tradition of Indian Classical Music and its eminent exponents." />
@@ -303,7 +303,7 @@ function App() {
       </div>
 
       <div className='sections-heading'><h1>Supporting the spirit of sportsmanship with the All India Master (Veteran) National Badminton Championships 2022-2023</h1></div>
-      <div class="line6"></div>
+      {/* <div class="line6"></div> */}
 
       <div className='section5'>
         <p> Arcgate Foundation believes in supporting the sports community and encouraging healthy and active lifestyles. We are honored to have sponsored the All India Master (Veteran) National Badminton Championships 2022-2023, a prestigious tournament that showcases the talent and passion of veteran badminton players from across the country.</p>
@@ -351,7 +351,7 @@ function App() {
       </div>
 
       <div className='section7-heading'><h1>Supporting Vidya Bhawan Society's Mission of Empowering Students Through Education</h1></div>
-      <div class="line10"></div>
+      {/* <div class="line10"></div> */}
 
       <div className='section7'>
         <p> We are proud to support Vidya Bhawan Society and their invaluable work in empowering students through education. We are particularly thankful for the opportunity to assist them during the lockdown by supporting their CSR funds.</p>
