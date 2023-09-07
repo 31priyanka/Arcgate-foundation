@@ -267,6 +267,7 @@ export const Imageone = [
         paragraph42:"We helped install new gates at the Sisarma Government Hospital, a facility that serves the less privileged.",
         paragraph43:"The new gates will help create a safe and welcoming environment for patients, their families, and the hardworking healthcare professionals at Sisarma Government Hospital. We believe that everyone deserves access to quality healthcare, no matter their socio-economic background.",
         paragraph44:"We hope to support the hospital's mission of providing excellent and compassionate healthcare services to the less fortunate.",
+        images15 : Image_fourteen,
       },
 
       {
@@ -281,7 +282,7 @@ export const Imageone = [
       paragraph49:"The festival featured storytellers from across the globe, who shared their stories of adventure, romance, mystery, and more. The festival also showcased folk-art performances, fusion musical forms, and an exclusive children's segment. Some of the highlights of the festival were the stories by renowned actor Vinay Pathak, cinestar Sushmita Mukherjee, and Sufi singers Roohani Sisters.",
       paragraph50:"By supporting this festival, we actively participated in the preservation and promotion of storytelling as an art form. We were proud to be part of an event that encouraged storytellers to share their unique tales, preserving cultural heritage and passing down wisdom to future generations.",
       paragraph51:"We are dedicated to supporting initiatives that strengthen communities, inspire creativity, and spread joy. Through our support, we hope to motivate individuals to explore the world of storytelling, unleash their own creative potential, and discover the transformative power of narratives.",
-      images15: Image_fifteen,
+      images16: Image_fifteen,
       }
     ];
     

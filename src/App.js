@@ -17,14 +17,13 @@ import { Image_twelve } from "./constant";
 import { Image_thirteen } from "./constant";
 import { Image_fourteen } from "./constant";
 import { Image_fifteen } from "./constant";
-import sheisudaipur from "./sheisudaipur.webp"
+import sheisudaipur from "./sheisudaipur.webp";
 import bgImage from '../src/background.jpg';
 import logo from '../src/logo.webp';
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles// ..
 AOS.init();
-
 
 // You can also pass an optional settings object
 // below listed default settings
@@ -157,7 +156,6 @@ function App() {
         ))}
       </div>
 
-
       <div className="section6">
         {data.map((section, index) => (
           <div key={index}>
@@ -226,23 +224,6 @@ function App() {
       <div className="section9">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading11 && <h1>{section.heading11}</h1>}
-            <p>{section.paragraph22}</p>
-            <p>{section.paragraph23}</p>
-            <p>{section.paragraph24}</p>
-            {section.images10 && (
-              <div data-aos="fade-up">
-                <Component images={Imagenine} />
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
-
-
-      <div className="section9">
-        {data.map((section, index) => (
-          <div key={index}>
             {section.heading12 && <h1>{section.heading12}</h1>}
             <p>{section.paragraph25}</p>
             <p>{section.paragraph26}</p>
@@ -251,7 +232,7 @@ function App() {
         ))}
       </div>
 
-      <div className="section10">
+      <div className="section8">
         {data.map((section, index) => (
           <div key={index}>
             {section.heading13 && <h1>{section.heading13}</h1>}
@@ -267,7 +248,7 @@ function App() {
         ))}
       </div>
 
-      <div className="section11">
+      <div className="section9">
         {data.map((section, index) => (
           <div key={index}>
             {section.heading14 && <h1>{section.heading14}</h1>}
@@ -283,7 +264,7 @@ function App() {
         ))}
       </div>
 
-      <div className="section12">
+      <div className="section10">
         {data.map((section, index) => (
           <div key={index}>
             {section.heading15 && <h1>{section.heading15}</h1>}
@@ -301,7 +282,7 @@ function App() {
         ))}
       </div>
 
-      <div className="section13">
+      <div className="section11">
         {data.map((section, index) => (
           <div key={index}>
             {section.heading16 && <h1>{section.heading16}</h1>}
@@ -318,18 +299,23 @@ function App() {
       </div>
 
 
-      <div className="section14">
+      <div className="section8">
         {data.map((section, index) => (
           <div key={index}>
             {section.heading17 && <h1>{section.heading17}</h1>}
             <p>{section.paragraph42}</p>
             <p>{section.paragraph43}</p>
             <p>{section.paragraph44}</p>
+            {section.images15 && (
+              <div data-aos="fade-up">
+                <Component images={Image_fourteen} />
+              </div>
+            )}
           </div>
         ))}
       </div>
 
-      <div className="section15">
+      <div className="section7">
         {data.map((section, index) => (
           <div key={index}>
             {section.heading18 && <h1>{section.heading18}</h1>}
@@ -340,7 +326,7 @@ function App() {
         ))}
       </div>
 
-      <div className="section16">
+      <div className="section8">
         {data.map((section, index) => (
           <div key={index}>
             {section.heading19 && <h1>{section.heading19}</h1>}
@@ -348,7 +334,7 @@ function App() {
             <p>{section.paragraph49}</p>
             <p>{section.paragraph50}</p>
             <p>{section.paragraph51}</p>
-            {section.images15 && (
+            {section.images16 && (
               <div data-aos="fade-up">
                 <Component images={Image_fifteen} />
               </div>
