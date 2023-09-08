@@ -20,6 +20,7 @@ import { Image_fifteen } from "./constant";
 import sheisudaipur from "./sheisudaipur.webp";
 import bgImage from '../src/background.jpg';
 import logo from '../src/logo.webp';
+// import { useMediaQuery } from 'react-responsive'
 // import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles// ..
@@ -37,8 +38,6 @@ AOS.init({
   disableMutationObserver: false, // disables automatic mutations' detections (advanced)
   debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
   throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
-
-
   // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
   offset: 120, // offset (in px) from the original trigger point
   delay: 0, // values from 0 to 3000, with step 50ms
@@ -47,8 +46,7 @@ AOS.init({
   once: false, // whether animation should happen only once - while scrolling down
   mirror: false, // whether elements should animate out while scrolling past them
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
-
-});
+  });
 
 function App() {
   return (
@@ -93,10 +91,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section2">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading4 && <h1>{section.heading4}</h1>}
+            {section.heading4 && <h3>{section.heading4}</h3>}
             {section.images1 && (
               <div data-aos="fade-up">
                 <Component images={Imagetwo} />
@@ -106,10 +104,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section3">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading5 && <h1>{section.heading5}</h1>}
+            {section.heading5 && <h3>{section.heading5}</h3>}
             <p>{section.paragraph5}</p>
             <p>{section.paragraph6}</p>
             <p>{section.paragraph7}</p>
@@ -143,10 +141,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section5">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading7 && <h1>{section.heading7}</h1>}
+            {section.heading7 && <h3>{section.heading7}</h3>}
             {section.images6 && (
               <div data-aos="fade-up">
                 <Component images={Imagefive} />
@@ -156,10 +154,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section6">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading8 && <h1>{section.heading8}</h1>}
+            {section.heading8 && <h3>{section.heading8}</h3>}
             <p>{section.paragraph13}</p>
             <p>{section.paragraph14}</p>
             <p>{section.paragraph15}</p>
@@ -173,10 +171,10 @@ function App() {
       </div>
 
 
-      <div className="section7">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading9 && <h1>{section.heading9}</h1>}
+            {section.heading9 && <h3>{section.heading9}</h3>}
             <p>{section.paragraph16}</p>
             <p>{section.paragraph17}</p>
             <p>{section.paragraph18}</p>
@@ -189,10 +187,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section8">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading10 && <h1>{section.heading10}</h1>}
+            {section.heading10 && <h3>{section.heading10}</h3>}
             <p>{section.paragraph19}</p>
             <p>{section.paragraph20}</p>
             <p>{section.paragraph21}</p>
@@ -205,10 +203,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section9">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading11 && <h1>{section.heading11}</h1>}
+            {section.heading11 && <h3>{section.heading11}</h3>}
             <p>{section.paragraph22}</p>
             <p>{section.paragraph23}</p>
             <p>{section.paragraph24}</p>
@@ -221,10 +219,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section9">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading12 && <h1>{section.heading12}</h1>}
+            {section.heading12 && <h3>{section.heading12}</h3>}
             <p>{section.paragraph25}</p>
             <p>{section.paragraph26}</p>
             <p>{section.paragraph27}</p>
@@ -232,10 +230,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section8">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading13 && <h1>{section.heading13}</h1>}
+            {section.heading13 && <h3>{section.heading13}</h3>}
             <p>{section.paragraph28}</p>
             <p>{section.paragraph29}</p>
             <p>{section.paragraph30}</p>
@@ -248,10 +246,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section9">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading14 && <h1>{section.heading14}</h1>}
+            {section.heading14 && <h3>{section.heading14}</h3>}
             <p>{section.paragraph31}</p>
             <p>{section.paragraph32}</p>
             <p>{section.paragraph33}</p>
@@ -264,10 +262,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section10">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading15 && <h1>{section.heading15}</h1>}
+            {section.heading15 && <h3>{section.heading15}</h3>}
             <p>{section.paragraph34}</p>
             <p>{section.paragraph35}</p>
             <p>{section.paragraph36}</p>
@@ -282,10 +280,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section11">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading16 && <h1>{section.heading16}</h1>}
+            {section.heading16 && <h3>{section.heading16}</h3>}
             <p>{section.paragraph39}</p>
             <p>{section.paragraph40}</p>
             <p>{section.paragraph41}</p>
@@ -299,10 +297,10 @@ function App() {
       </div>
 
 
-      <div className="section8">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading17 && <h1>{section.heading17}</h1>}
+            {section.heading17 && <h3>{section.heading17}</h3>}
             <p>{section.paragraph42}</p>
             <p>{section.paragraph43}</p>
             <p>{section.paragraph44}</p>
@@ -315,10 +313,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section7">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading18 && <h1>{section.heading18}</h1>}
+            {section.heading18 && <h3>{section.heading18}</h3>}
             <p>{section.paragraph45}</p>
             <p>{section.paragraph46}</p>
             <p>{section.paragraph47}</p>
@@ -326,10 +324,10 @@ function App() {
         ))}
       </div>
 
-      <div className="section8">
+      <div className="section1">
         {data.map((section, index) => (
           <div key={index}>
-            {section.heading19 && <h1>{section.heading19}</h1>}
+            {section.heading19 && <h3>{section.heading19}</h3>}
             <p>{section.paragraph48}</p>
             <p>{section.paragraph49}</p>
             <p>{section.paragraph50}</p>
@@ -341,6 +339,10 @@ function App() {
             )}
           </div>
         ))}
+      </div>
+
+      <div className='footer'>
+        <p> Copyright © 2023. All rights reserved</p>
       </div>
 
     </div>
